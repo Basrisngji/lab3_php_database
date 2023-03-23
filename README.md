@@ -14,10 +14,10 @@ menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP.<p
 ### Menjalankan MySQL Server
 Untuk menjalankan MySQL Server dari menu XAMPP Contol.<p>
 ![Gambar 1](gambar/1.png)
-###Mengakses MySQL Client menggunakan PHP MyAdmin
+### Mengakses MySQL Client menggunakan PHP MyAdmin
 Pastikan webserver Apache dan MySQL server sudah dijalankan. Kemudian buka melalui browser:
 http://localhost/phpmyadmin/<p>
-###Membuat Database: Studi Kasus Data Barang
+### Membuat Database: Studi Kasus Data Barang
 ![Gambar 2](gambar/2.png)
 ![Gambar 3](gambar/3.png)
 ![Gambar 4](gambar/4.png)
@@ -26,7 +26,7 @@ http://localhost/phpmyadmin/<p>
 Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL:
 http://localhost/lab3_php_database/ <p>
 ![Gambar 7](gambar/7.png)
-###Membuat file koneksi database
+### Membuat file koneksi database
 Buat file baru dengan nama koneksi.php<p>
 ```<?php
 $host = "localhost";
@@ -44,7 +44,7 @@ die();
 Buka melalui browser untuk menguji koneksi database (untuk menyampilkan pesan koneksi berhasil,
 uncomment pada perintah echo “koneksi berhasil”;<p>
 ![Gambar 8](gambar/8.png)
-###Membuat file index untuk menampilkan data (Read)
+### Membuat file index untuk menampilkan data (Read)
 Buat file baru dengan nama index.php<p>
 ```<?php
 include("koneksi.php");
@@ -97,7 +97,7 @@ $row['nama'];?>"></td>
 </html>
 ```
 ![Gambar 9](gambar/9.png)
-###Menambah Data (Create)
+### Menambah Data (Create)
 Buat file baru dengan nama tambah.php<p>
 ```<?php
 error_reporting(E_ALL);
@@ -181,7 +181,7 @@ data">
 </html>
 ```
 ![Gambar 10](gambar/10.png)
-###Mengubah Data (Update)
+### Mengubah Data (Update)
 Buat file baru dengan nama ubah.php<p>
 ```<?php
 error_reporting(E_ALL);
@@ -287,7 +287,7 @@ $data['id_barang'];?>" />
 </html>
 ```
 ![Gambar 11](gambar/11.png)
-###Menghapus Data (Delete)
+### Menghapus Data (Delete)
 Buat file baru dengan nama hapus.php<p>
 ```<?php
 include_once 'koneksi.php';
