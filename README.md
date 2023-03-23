@@ -23,7 +23,7 @@ http://localhost/phpmyadmin/<p>
 ![Gambar 4](gambar/4.png)
 ![Gambar 5](gambar/5.png)
 ![Gambar 6](gambar/6.png)
-Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL:
+Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL:<p>
 http://localhost/lab3_php_database/ <p>
 ![Gambar 7](gambar/7.png)
 ### Membuat file koneksi database
