@@ -11,4 +11,4 @@
 ### Persiapan
 Untuk memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah database server
 menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP.<p>
-![Gambar 1](gambar/1.PNG)
+![Gambar 1](gambar/1.png)
