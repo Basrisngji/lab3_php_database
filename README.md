@@ -28,7 +28,8 @@ http://localhost/lab3_php_database/ <p>
 ![Gambar 7](gambar/7.png)
 ### Membuat file koneksi database
 Buat file baru dengan nama koneksi.php<p>
-```<?php
+```
+<?php
 $host = "localhost";
 $user = "root";
 $pass = "";
@@ -46,7 +47,8 @@ uncomment pada perintah echo “koneksi berhasil”;<p>
 ![Gambar 8](gambar/8.png)
 ### Membuat file index untuk menampilkan data (Read)
 Buat file baru dengan nama index.php<p>
-```<?php
+```
+<?php
 include("koneksi.php");
 // query untuk menampilkan data
 $sql = 'SELECT * FROM data_barang';
@@ -99,7 +101,8 @@ $row['nama'];?>"></td>
 ![Gambar 9](gambar/9.png)
 ### Menambah Data (Create)
 Buat file baru dengan nama tambah.php<p>
-```<?php
+```
+<?php
 error_reporting(E_ALL);
 include_once 'koneksi.php';
 if (isset($_POST['submit']))
@@ -183,7 +186,8 @@ data">
 ![Gambar 10](gambar/10.png)
 ### Mengubah Data (Update)
 Buat file baru dengan nama ubah.php<p>
-```<?php
+```
+<?php
 error_reporting(E_ALL);
 include_once 'koneksi.php';
 if (isset($_POST['submit']))
@@ -289,7 +293,8 @@ $data['id_barang'];?>" />
 ![Gambar 11](gambar/11.png)
 ### Menghapus Data (Delete)
 Buat file baru dengan nama hapus.php<p>
-```<?php
+```
+<?php
 include_once 'koneksi.php';
 $id = $_GET['id'];
 $sql = "DELETE FROM data_barang WHERE id_barang = '{$id}'";
